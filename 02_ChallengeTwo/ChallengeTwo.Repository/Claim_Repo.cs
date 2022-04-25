@@ -1,31 +1,31 @@
 ﻿
 public class Claim_Repo
 {
-    private readonly Queue<Komodo> _gQueue = new Queue<Komodo>();
+    private readonly Queue<Claim> _gQueue = new Queue<Claim>();
     private int _count =0;
-    public bool AddKomodointoQueue(Komodo komodo)
+    public bool AddToQueue(Claim claim)
     {
-        if(komodo != null)
+        if(claim != null)
         {
             _count++;
-            komodo.ID = _count =0;
-            _gQueue.Enqueue(komodo);
+            claim.ID = _count;
+            _gQueue.Enqueue(claim);
             return true;
         }
         return false;
     }
 
-    public Queue<Komodo> GetKomodos()
+    public Queue<Claim> GetClaims()
     {
         return _gQueue;
     }
 
-    public Komodo GetKomodo()
+    public Claim GetClaim()
     {
         if(_gQueue.Count > 0)
     {
-        var komodo = _gQueue.Peek();
-        return komodo;
+        var Claim = _gQueue.Peek();
+        return Claim;
     }
     else
     {
@@ -36,8 +36,8 @@ public class Claim_Repo
 
 public bool ReleaseKomodo()
     {
-        var komodo = GetKomodo();
-        if(komodo is null)
+        var Claim = GetClaim();
+        if(Claim is null)
         {
             return false;
         }

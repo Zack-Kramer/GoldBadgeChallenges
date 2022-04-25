@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeTwo.Repository", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeTwo.UI", "02_ChallengeTwo\ChallengeTwo.UI\ChallengeTwo.UI.csproj", "{87C3AE22-4545-41AA-BCDC-E84361564694}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ChallengeTwo_Tests", "02_ChallengeTwo_Tests\02_ChallengeTwo_Tests.csproj", "{D574A688-B9F6-495C-8F28-CDB6736943AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{87C3AE22-4545-41AA-BCDC-E84361564694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87C3AE22-4545-41AA-BCDC-E84361564694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87C3AE22-4545-41AA-BCDC-E84361564694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D574A688-B9F6-495C-8F28-CDB6736943AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D574A688-B9F6-495C-8F28-CDB6736943AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D574A688-B9F6-495C-8F28-CDB6736943AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D574A688-B9F6-495C-8F28-CDB6736943AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{104128D9-F3AE-4848-9119-211E59BBD8F2} = {BAEF8BCF-D43F-47DE-8E54-9EAF1F467844}
