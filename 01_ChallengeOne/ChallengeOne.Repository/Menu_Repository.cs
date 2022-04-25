@@ -15,7 +15,7 @@ using System.Threading.Tasks;
       //Create
 
     //The manager wants to be able to create new menu items, 
-      public bool AddDeveloperToRepo(Menu menu) //<- 'menu' can literally be named anything. Pass an object of that type into it and then we can do work.
+      public bool AddMenuItemToRepo(Menu menu) //<- 'menu' can literally be named anything. Pass an object of that type into it and then we can do work.
       {
           if(menu != null)
           {
@@ -33,7 +33,7 @@ using System.Threading.Tasks;
           }
       }
       // and receive a list of all items on the cafe's menu.
-      public List<Menu> GetAllIngredients()
+      public List<Menu> GetAllMenuItems()
       {
           return _OneRepo;
       }

@@ -17,6 +17,7 @@ using System.Threading.Tasks;
      //properties: just, Just, JUST describes the DEVELOPER, like a damn narcissist GAH-LEE.
      public int ID { get; set; }
      public string MealName {get; set; }
+     //                To read^  To Write^
      public string MealDescription { get; set; }
      public string MealIngredients { get; set; }
      public string MealPrice { get; set; }
