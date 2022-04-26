@@ -66,7 +66,7 @@
     }
     public bool DeleteDoor(int badgeId)
     {
-        var door = GetBadgeByID(badgeId);
+        var door = GetBadgeByKey(badgeId);
         if(door != null)
         {
             _badgeDb.Remove(badgeId);

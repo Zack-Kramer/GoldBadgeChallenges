@@ -3,6 +3,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Challenge3.Data\Challenge3.Data.csproj" />
     <ProjectReference Include="..\Challenge3.Repository\Challenge3.Repository.csproj" />
+    <ProjectReference Include="..\CH3RepoREDUX\Challenge3RepositoryREDUX.csproj" />
+    <ProjectReference Include="..\Ch3DataREDUX\Ch3DataREDUX.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
